@@ -5,6 +5,12 @@ import requests
 import subprocess
 
 
+'''
+本机：ssh -NfR 8888:127.0.0.1:8080 root@172.19.167.73
+信息外网：ssh -NfL 172.19.167.73:8887:127.0.0.1:8888 127.0.0.1
+'''
+
+
 regex = re.compile(r'\[(.*)\]')
 
 
